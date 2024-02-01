@@ -1,0 +1,88 @@
+.App {
+    text-align: center;
+}
+
+.App-header {
+    /*background-color: #FFFBBD;*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.name {
+    width: 97%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+
+h2 {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 12px 4em;
+    border-radius: 10px;
+    width: 100%;
+    border: 0;
+    background-color: #236b03;
+    font-family: Candara, serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-image 0.3s ease;
+}
+
+button:disabled {
+    background-image: linear-gradient(#999, #777);
+    cursor: not-allowed;
+}
+
+button:hover {
+    transform: scale(1.0);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #358b11;
+}
+
+button.submitting {
+    background-image: linear-gradient(#555, #333);
+}
+
+#display {
+    margin-top: 20px;
+    font-size: 1.5em;
+    padding: 10px;
+    font-family: "Comic Sans MS", serif;
+    color: #1D1A05;
+    border-radius: 5px;
+}
+
+
+#whole {
+    width: 50%;
+    height: 50%;
+    box-shadow: 0 0 10px #555;
+    border: 2px solid #333;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    width: 100%;
+}
+
+.form form {
+    width: 100%;
+}
